@@ -1,0 +1,5 @@
+region        = "eu-west-2"
+ami           = "ami-0aef57767f5404a35"
+name          = "wordpress_db"
+username      = "db_user"
+password      = "db_password"
