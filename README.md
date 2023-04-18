@@ -32,7 +32,8 @@ The chosen cloud provider for this assignment is AWS, but you are free to choose
 
 
 ## Solution (Approach Used)
-- Used AWS as provider, considering the user has already cofngiured login using AWS ACCESS KEY and ACCESS SECRET KEY.
+- Used AWS as provider, considering the user has already cofngiured login using AWS_ACCESS_KEY and AWS_SECRET_KEY. The values of AWS_ACCESS_KEY and AWS_SECRET_KEY
+(Please Note I have used AWS_ACCESS_KEY and AWS_SECRET_KEY here just for simplicity, in standard practice we keep secrets in either terraform vault or AWS Parameter Store.)
 - The solution is partitioned into five files-
  1. providers.tf
  2. variables.tf
