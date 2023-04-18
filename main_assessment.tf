@@ -89,3 +89,8 @@ resource "aws_eip" "wordpress_eip" {
 terraform {
   on_failure = "rollback"
 }
+
+# Output of public IP of EC2 istance
+output "public_ip" {
+  value = aws_instance.wordpress_instance.public_ip
+}
